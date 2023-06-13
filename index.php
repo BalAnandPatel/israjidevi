@@ -500,7 +500,6 @@
           <a href="PhotoGallery.php">
             <div class="image-holder">
                <!-- <img class="img-fluid" src="<?php // echo $GALLERY_IMG_PATH . "gallery_img" . $value1->id . ".png"; ?>" alt="Awesome Image" /></div> -->
-               <img src="" alt="">
           </a>
         </div>
     <?php //} } ?>
