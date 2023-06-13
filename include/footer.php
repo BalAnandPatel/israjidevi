@@ -6,7 +6,7 @@
     <div class="footer-upper">
       <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="footer-widget about-widget"><a href="index.php"><img src="images/logo/dpslogo.png"
+          <div class="footer-widget about-widget"><a href="index.php"><img src="images/logo/logo-1.png"
                 alt="Awesome Image" /> </a>
             <p style="text-align:justify;">Our Focus is on Student acquiring precision in use of language, refined and
               gentle manners, ability to appreciate culture, power and habit of reflection.. </p>

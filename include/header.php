@@ -71,7 +71,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5" style="padding: 0px;">
-            <div class="main-logo"> <a href="index.php"><img class="img-responsive" src="images/logo/logo-1.png" style="width:572px; height:84px;" alt=""></a> </div>
+            <div class="main-logo"> <a href="index.php"><img class="img-responsive" src="images/logo/logo-1.png" style="width:400px; height:84px;" alt=""></a> </div>
           </div <div class="col-md-7 menu-column">
           <nav class="main-menu">
             <div class="navbar-header">
