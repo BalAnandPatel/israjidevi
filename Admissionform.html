@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+    <style>
+
+        tr td:nth-child(1){
+            width: 15%;
+            background-color: lightgrey;
+            padding: 4px;
+        }
+        tr td:nth-child(2){
+            width: 15%;
+            background-color: lightgrey;
+            padding: 8px 4px;
+        }
+        input[type=text]{
+            width: 90%;
+            height: 20px;
+        }
+        input[type=date]{
+            width: 90%;
+            height: 20px;
+        }
+        select{
+            width: 92%;
+            height: 20px;
+        }
+
+        .s{
+            display: flex;
+            padding: 3%;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+<div class="s">
+
+    
+    <form action="">
+        <table>
+            <tr>
+                <th>Student Information</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>FULL NAME OF THE STUDENT*</td>
+                <td> <input type="text" required> </td>
+            </tr>
+            <tr>
+                <td>APPLYING FOR GRADE*</td>
+                <td>
+                <select required>
+                    <option value="1" disabled selected>--SELECT--</option>
+                    <option value="2">PARENT CHILD PROGRAMME</option>
+                    <option value="3">PRE-NURSERY</option>
+                    <option value="4">NURSERY</option>
+                    <option value="5">KG</option>
+                    <option value="6">GRADE 1</option>
+                    <option value="7">GRADE 2</option>
+                    <option value="8">GRADE 3</option>
+                    <option value="9">GRADE 4</option>
+                    <option value="10">GRADE 5</option>
+                    <option value="11">GRADE 6</option>
+                    <option value="12">GRADE 7</option>
+                    <option value="13">GRADE 8</option>
+                    <option value="14">GRADE 9</option>
+                    <option value="15">GRADE 10</option>
+                    <option value="16">GRADE 11</option>
+                    <option value="17">GRADE 12</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>MOTHER NAME*</td>
+                <td>
+                <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td>FATHER NAME*</td>
+                <td>
+                   <input type="text" required>
+                    </td>
+            </tr>
+            <tr>
+                <td>MOBILE NO. *</td>
+                <td>
+                   <input type="text" required>
+                    </td>
+            </tr>
+            <tr>
+                <td>EMAIL ID*</td>
+                <td>
+                   <input type="text" required>
+                    </td>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH*</td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">BLOOD GROUP</label>
+                    <br>
+                    <select>
+                        <option value="1" disabled selected>--SELECT--</option>
+                        <option value="2">A+</option>
+                        <option value="3">A-</option>
+                        <option value="4">B+</option>
+                        <option value="5">B-</option>
+                        <option value="6">AB+</option>
+                        <option value="7">AB-</option>
+                        <option value="8">O+</option>
+                        <option value="9">O-</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">TRANSPORT</label>
+                    <br>
+                    <select required>
+                        <option value="1" disabled selected>--SELECT--</option>
+                        <option value="2">YES</option>
+                        <option value="3">NO</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">FACILITY*</label>
+                    <br>
+                    <select required>
+                        <option value="1" disabled selected>--SELECT--</option>
+                        <option value="2">DAY SCHOOL</option>
+                        <option value="3">AFTER SCHOOL PROGRAMME</option>
+                        <option value="4">5 DAYHOSTEL</option>
+                        <option value="5">7 DAY HOSTEL</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">CATEGORY</label>
+                    <br>
+                    <select required>
+                        <option value="1" disabled selected>--SELECT--</option>
+                        <option value="2">GENERAL</option>
+                        <option value="3">SC</option>
+                        <option value="4">ST</option>
+                        <option value="5">OBC</option>
+                    </select>
+                </td>
+            </tr>
+                <tr>
+                    <td>ANY LEARNING SUPPORT REQUIRED?</td>
+                    <td>
+                        <input type="radio" name="support"> YES
+                        <input type="radio" name="support"> NO
+                    </td>
+                </tr>
+                <tr>
+                    <td>FULL NAME OF THE LAST SCHOOL</td>
+                    <td><input type="text"></td>
+                </tr>
+                <!-- <tr>
+                    <td>CURRENT CLASS</td>
+                    <td>
+                        <select>
+                            <option value="1" disabled selected>--SELECT--</option>
+                            <option value="2">PARENT CHILD PROGRAMME</option>
+                            <option value="3">PRE-NURSERY</option>
+                            <option value="4">NURSERY</option>
+                            <option value="5">KG</option>
+                            <option value="6">GRADE 1</option>
+                            <option value="7">GRADE 2</option>
+                            <option value="8">GRADE 3</option>
+                            <option value="9">GRADE 4</option>
+                            <option value="10">GRADE 5</option>
+                            <option value="11">GRADE 6</option>
+                            <option value="12">GRADE 7</option>
+                            <option value="13">GRADE 8</option>
+                            <option value="14">GRADE 9</option>
+                            <option value="15">GRADE 10</option>
+                            <option value="16">GRADE 11</option>
+                            <option value="17">GRADE 12</option>
+                        </select>
+                        </td>
+                </tr> -->
+                <tr>
+                    <td>WHETHER LAST SCHOOL WAS CBSE AFFILIATED?</td>
+                    <td>
+                        <input type="radio" name="cbse"> YES
+                        <input type="radio" name="cbse"> NO
+                    </td>
+                </tr>
+                <tr>
+                    <td>WHETHER ANY SIBLING IS STUDYING IN G.P. INTERNATIONAL?</td>
+                    <td>
+                        <input type="radio" name="sibling"> YES
+                        <input type="radio" name="sibling"> NO
+                    </td>
+                </tr>
+                <tr>
+                    <td>HAVE YOU EVER APPLIED IN G.P. INTERNATIONAL SCHOOL BEFORE?*</td>
+                    <td>
+                        <input type="radio" name="school"> YES
+                        <input type="radio" name="school"> NO
+                    </td>
+                </tr>
+        </table>
+
+        <br><br>
+        <input type="button" value="Next>>" style="display: flex; float: right;">
+    </form>
+
+</div>
+
+</body>
+</html>
