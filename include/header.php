@@ -6,16 +6,16 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>G P INTERNATIONAL SCHOOL AND COLLEGE</title>
+  <title>ISRAJIDEVI ENGLISH MEDIUM SCHOOL</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="common/css/style.css">
   <link rel="stylesheet" href="common/css/responsive.css">
   <link rel="stylesheet" href="common/fonts/flaticon.css" />
   <!--favicon-->
-  <link rel="apple-touch-icon" sizes="180x180" href="images/logo/favicon_io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon_io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon_io/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/logo/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
 </head>
@@ -60,8 +60,8 @@
         <!--Top Right-->
         <div class="top-right pull-right">
           <ul class="links-nav clearfix">
-            <li><a href="#"><span class="fa fa-phone"></span> Call: 9792939198, 8563863074 </a> </li>
-            <li><a href="#"><span class="fa fa-envelope"></span>gpinternational@gmail.com </a> </li>
+            <li><a href="#"><span class="fa fa-phone"></span> Call: 791279XXXX, 85630XXXX </a> </li>
+            <li><a href="#"><span class="fa fa-envelope"></span>israjidevi@gmail.com </a> </li>
           </ul>
         </div>
       </div>
@@ -71,7 +71,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5" style="padding: 0px;">
-            <div class="main-logo"> <a href="index.php"><img class="img-responsive" src="images/logo/dpslogo.png" style="width:572px; height:84px;" alt=""></a> </div>
+            <div class="main-logo"> <a href="index.php"><img class="img-responsive" src="images/logo/logo-1.png" style="width:572px; height:84px;" alt=""></a> </div>
           </div <div class="col-md-7 menu-column">
           <nav class="main-menu">
             <div class="navbar-header">

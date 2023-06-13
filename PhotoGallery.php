@@ -1,17 +1,17 @@
 <?php include "constant.php"; ?>
 <?php include "include/header.php"; ?>
 <?php
-$url = $URL . "gallery/read_gallery.php";
-$data = array();
-//print_r($data);
-$postdata = json_encode($data);
-$client = curl_init($url);
-curl_setopt($client, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
-$response = curl_exec($client);
-//print_r($response);
-$result = json_decode($response);
-//print_r($result);
+// $url = $URL . "gallery/read_gallery.php";
+// $data = array();
+// //print_r($data);
+// $postdata = json_encode($data);
+// $client = curl_init($url);
+// curl_setopt($client, CURLOPT_RETURNTRANSFER, 1);
+// curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
+// $response = curl_exec($client);
+// //print_r($response);
+// $result = json_decode($response);
+// //print_r($result);
 ?>
 <link rel="stylesheet" href="common/css/compact-gallery.css">
 
@@ -22,7 +22,8 @@ $result = json_decode($response);
          <div class="col-md-6 col-sm-6 col-xs-12 pull-left">
             <h1>School Photo Album</h1>
          </div>
-         <div class="col-md-6 col-sm-6 col-xs-12 pull-right text-right path"><a href="index.php">Home</a>&ensp;&gt;&ensp;<a href="PhotoGallery.php">Photo Gallery</a> </div>
+         <div class="col-md-6 col-sm-6 col-xs-12 pull-right text-right path"><a
+               href="index.php">Home</a>&ensp;&gt;&ensp;<a href="PhotoGallery.php">Photo Gallery</a> </div>
          <div class="overlay"></div>
       </div>
    </div>
@@ -46,19 +47,21 @@ $result = json_decode($response);
                      <div class="masonary-layout filter-layout" style="position: relative;">
 
                         <?php
-                        $counter = 0;
-                        foreach ($result as $key => $value) {
-                           foreach ($value as $key1 => $value1) {
+                        // $counter = 0;
+                        // foreach ($result as $key => $value) {
+                        // foreach ($value as $key1 => $value1) {
                         ?>
-                              <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12 filter-item">
-                                 <div class="single-item">
-                                    <div class="img-box">
-                                       <img class="img-fluid img-thumbnail rounded-0" src="<?php echo $GALLERY_IMG_PATH."gallery_img".$value1->id.".png"; ?>" style="height:30rem;">
-                                    </div>
-                                 </div>
+                        <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12 filter-item">
+                           <div class="single-item">
+                              <div class="img-box">
+                                 <!-- <img class="img-fluid img-thumbnail rounded-0"
+                                    src="<?php //echo $GALLERY_IMG_PATH . "gallery_img" . $value1->id . ".png"; ?>"
+                                    style="height:30rem;"> -->
+                                 <img class="img-fluid img-thumbnail rounded-0" src="images/school/campus-1.jpg" style="height:30rem;">
                               </div>
-                        <?php }
-                        } ?>
+                           </div>
+                        </div>
+                        <?php //} } ?>
 
                      </div>
                   </div>
